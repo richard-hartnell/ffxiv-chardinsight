@@ -113,7 +113,7 @@ public class ItemPriceTooltip : IDisposable {
             priceNode->AtkResNode.Flags_2 |= TooltipMovedUp;
         }
 
-        insertNode->SetPositionFloat(insertNode->X, insertNode->Y + priceNode->AtkResNode.Height + 4);
+        insertNode->SetPositionFloat(insertNode->X, insertNode->Y + priceNode->AtkResNode.Height + 10);
     }
 
     private List<Payload> ParseMbData(bool hq, MarketBoardData? mbData, LookupState lookupState) {
